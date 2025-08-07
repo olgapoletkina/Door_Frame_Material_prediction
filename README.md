@@ -32,13 +32,17 @@ We compare several models (CatBoost, LightGBM, RandomForest), analyze feature im
 Below, we compare the classification performance of each model (CatBoost, LightGBM, RandomForest) using confusion matrices. These help identify not just accuracy, but also **where misclassifications occur** (e.g., whether the model is biased toward the majority class).
 
 **Confusion Matrix Catboost**
+
 ![Confusion Matrix Catboost](img/doors_catboost_matrix.png)
 
 **Confusion Matrix LightGBM**
+
 ![Confusion Matrix LightGBM](img/doors_lgbm_matrix.png)
 
 **Confusion Matrix Random Forest**
+
 ![Confusion Matrix Random Forest](img/doors_rf_matrix.png)
+
 ---
 
 ## Key Findings
