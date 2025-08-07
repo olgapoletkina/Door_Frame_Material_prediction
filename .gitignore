@@ -1,0 +1,12 @@
+.venv/
+env/
+venv/
+
+/catboost_info/
+/data/
+*.csv
+*.xlsx
+*.log
+
+*_backup.ipynb
+*_preparation.ipynb
