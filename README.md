@@ -62,4 +62,4 @@ Below, we compare the classification performance of each model (CatBoost, LightG
 
 ---
 
-> See the notebook for all code, detailed discussion, and further insights into model behavior and feature selection.
+> *See the notebook for all code, detailed discussion, and further insights into model behavior and feature selection.*
