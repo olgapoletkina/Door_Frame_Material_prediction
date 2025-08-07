@@ -14,6 +14,7 @@ We compare several models (CatBoost, LightGBM, RandomForest), analyze feature im
   Features were chosen for their availability across all projects and further filtered using correlation analysis (threshold: 0.6) to avoid data leakage.  
   Feature importance plots (from CatBoost and LightGBM) help interpret which building/door characteristics matter most.
 
+ **Phik Matrix for features**
   ![Phik  for features](img/door_phik.png)
 
 ---
@@ -30,10 +31,13 @@ We compare several models (CatBoost, LightGBM, RandomForest), analyze feature im
 ### Confusion Matrices
 Below, we compare the classification performance of each model (CatBoost, LightGBM, RandomForest) using confusion matrices. These help identify not just accuracy, but also **where misclassifications occur** (e.g., whether the model is biased toward the majority class).
 
+**Confusion Matrix Catboost**
 ![Confusion Matrix Catboost](img/doors_catboost_matrix.png)
 
+**Confusion Matrix LightGBM**
 ![Confusion Matrix LightGBM](img/doors_lgbm_matrix.png)
 
+**Confusion Matrix Random Forest**
 ![Confusion Matrix Random Forest](img/doors_rf_matrix.png)
 ---
 
